@@ -1,0 +1,34 @@
+{
+  "name": "api-resource-migrator",
+  "version": "0.0.1",
+  "description": "Easy API resource migration process",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjsc/api-resource-migrator"
+  },
+  "keywords": [
+    "Api",
+    "resource",
+    "migration",
+    "migrator",
+    "copy",
+    "objects",
+    "endpoint",
+    "clone",
+    "environment"
+  ],
+  "author": "wjsc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjsc/api-resource-migrator/issues"
+  },
+  "homepage": "https://github.com/wjsc/api-resource-migrator#readme",
+  "dependencies": {
+    "async-functions-pool": "^1.0.0",
+    "node-fetch": "^2.1.2"
+  }
+}
