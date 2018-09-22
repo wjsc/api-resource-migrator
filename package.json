@@ -1,6 +1,6 @@
 {
-  "name": "api-resource-migrator",
-  "version": "0.0.1",
+  "name": "API-resource-migrator",
+  "version": "1.0.0",
   "description": "Easy API resource migration process",
   "main": "index.js",
   "scripts": {
