@@ -120,3 +120,38 @@ const runAll = async () => {
 }
 runAll();
 ```
+
+### Transform objects before migration
+
+```
+// Create a custom intermediate function
+const transform = resource => {
+  delete resource.someKey;
+  resource.date = new Date().toDateString();
+  return resource;
+}
+
+// Append function to migration object
+const migration = {
+  source: {
+    process: transform,
+    url: "http://origin.com/resource/",
+    headers: {
+      "content-type": "application/json"
+    }
+  },
+  target: {
+    url: "http://target.com/resource/",
+    headers: {
+      "content-type": "application/json"
+    }
+  },
+  ids: [
+    "Resource-1",
+    "Resource-2",
+    "Resource-3",
+    "Resource-4"
+  ]
+}
+
+```
