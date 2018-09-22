@@ -111,3 +111,12 @@ const migration = {
 
 
 ```
+
+### Wait for all migrations to finish
+
+```
+const runAll = async () => {
+  await migrator.run();
+}
+runAll();
+```
