@@ -1,3 +1,11 @@
+![Current Version](https://img.shields.io/npm/v/api-resource-migrator.svg)
+![NPM Minified size](https://img.shields.io/bundlephobia/min/api-resource-migrator.svg)
+![Github Code Size](https://img.shields.io/github/languages/code-size/wjsc/api-resource-migrator.svg)
+![Downloads/Week](https://img.shields.io/npm/dw/api-resource-migrator.svg)
+![Issues](https://img.shields.io/github/issues/wjsc/api-resource-migrator.svg)
+![License](https://img.shields.io/github/license/wjsc/api-resource-migrator.svg)
+![Contributors](https://img.shields.io/github/contributors/wjsc/api-resource-migrator.svg)
+
 [![NPM](https://nodei.co/npm/api-resource-migrator.png)](https://nodei.co/npm/api-resource-migrator)
 
 # api-resource-migrator
