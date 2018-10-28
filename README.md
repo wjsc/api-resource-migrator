@@ -1,5 +1,7 @@
 # api-resource-migrator
-Easy API resource migration process: 
+Easy API resource migration library
+
+[![NPM](https://nodei.co/npm/api-resource-migrator.png?downloads)](https://nodei.co/npm/api-resource-migrator)
 
 
 ## Simple configuration 
